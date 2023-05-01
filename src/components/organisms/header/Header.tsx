@@ -1,5 +1,6 @@
 import React from 'react'
 import { MenuList } from '..'
+import { HeaderRight } from './HeaderRight'
 
 export const Header: React.FC = () => {
   return (
@@ -7,6 +8,8 @@ export const Header: React.FC = () => {
       <nav className="container m-auto px-6 flex">
         <MenuList />
       </nav>
+
+      <HeaderRight />
     </header>
   )
 }
