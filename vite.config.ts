@@ -1,6 +1,8 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
-const basePath = '/home/umar/Disk/Development/Web/Projects/FRONT/seagm'
+import path from 'path'
+// const basePath = '/home/umar/Disk/Development/Web/Projects/FRONT/seagm'
+const basePath = path.resolve(__dirname)
 
 // https://vitejs.dev/config/
 export default defineConfig({
