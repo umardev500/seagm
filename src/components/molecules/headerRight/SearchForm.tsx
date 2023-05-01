@@ -1,4 +1,4 @@
-import { mdiCloseCircle, mdiMagnify } from '@mdi/js'
+import { mdiMagnify } from '@mdi/js'
 import Icon from '@mdi/react'
 import React, { useCallback, useRef } from 'react'
 
