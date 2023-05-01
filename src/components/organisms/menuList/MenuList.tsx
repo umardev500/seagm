@@ -6,8 +6,8 @@ import { CardDropdownList, GameDropdownList } from '..'
 export const MenuList: React.FC = () => {
   const [gameShown, setGameShown] = useState(false)
   const [cardShown, setCardShown] = useState(false)
-  const gameToggler = useToggler({ setToggle: setGameShown })
-  const cardToggler = useToggler({ setToggle: setCardShown })
+  const gameToggler = useToggler({ setToggle: setGameShown, setToggleOther: [setCardShown] })
+  const cardToggler = useToggler({ setToggle: setCardShown, setToggleOther: [setGameShown] })
 
   return (
     <ul className="flex items-center">
