@@ -1,5 +1,9 @@
 .search-form {
-  min-width: 300px;
+  min-width: 200px;
+
+  @media (min-width: 1024px) {
+    min-width: 300px;
+  }
 
   &.focus {
     @apply bg-red-50;
