@@ -9,7 +9,7 @@ export const Home: React.FC = () => {
       <HeroSLider />
       <Section
         title="Exlusive Offers"
-        subTitle="Lorem ipsum dolor is amet karam anta"
+        subTitle="Don't miss our limited-time offers! Discover current deals today!"
       />
     </>
   )
