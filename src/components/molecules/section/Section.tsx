@@ -7,7 +7,7 @@ interface Props {
 
 export const Section: React.FC<Props> = ({ title, subTitle }) => {
   return (
-    <div className="container gap-2 px-4 m-auto mt-6 flex items-center justify-between">
+    <div className="container gap-2 px-4 lg:px-0 m-auto mt-6 flex items-center justify-between">
       <div>
         <h3 className="uppercase whitespace-nowrap manrope font-bold text-lg lg:text-2xl text-gray-700">
           {title}
