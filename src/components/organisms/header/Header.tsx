@@ -37,7 +37,8 @@ export const Header: React.FC = () => {
           <Icon path={mdiMenu} size={'24px'} />
         </div>
 
-        <nav className="hidden lg:flex">
+        <nav className="hidden lg:flex items-center gap-2">
+          <a href="#" className="logo hidden lg:block"></a>
           <MenuList />
         </nav>
 
