@@ -4,15 +4,17 @@ interface Props {
   src: string
   startColor: string
   endColor: string
+  className?: string
 }
 
 export const OfferListing: React.FC<Props> = ({
   src,
   startColor,
   endColor,
+  className = '',
 }) => {
   return (
-    <div className="bg-white rounded-2xl overflow-clip">
+    <div className={`bg-white rounded-2xl overflow-clip ${className}`}>
       <div
         style={{
           ['--startColor' as string]: startColor,

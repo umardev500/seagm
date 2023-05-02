@@ -10,6 +10,7 @@ export const OfferList: React.FC = () => {
           <OfferListing
             startColor="#65a30d"
             endColor="#86efac"
+            className="ml-4 lg:ml-0"
             src="assets/thumbs/small/zalando.webp"
           />
         </SwiperSlide>
