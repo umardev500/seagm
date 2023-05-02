@@ -24,4 +24,5 @@
 
 .swiper-slide-prev, .swiper-slide-next {
   opacity: .25;
+  filter: grayscale(1);
 }
