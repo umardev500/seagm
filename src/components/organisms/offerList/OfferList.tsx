@@ -8,16 +8,9 @@ export const OfferList: React.FC = () => {
       <Swiper spaceBetween={16} slidesPerView={'auto'}>
         <SwiperSlide>
           <OfferListing
-            startColor="#65a30d"
-            endColor="#86efac"
-            className="ml-4 lg:ml-0"
-            src="assets/thumbs/small/zalando.webp"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <OfferListing
             startColor="#475569"
             endColor="#cbd5e1"
+            className="ml-4 lg:ml-0"
             src="assets/thumbs/small/pubg.webp"
           />
         </SwiperSlide>
@@ -28,6 +21,14 @@ export const OfferList: React.FC = () => {
             src="assets/thumbs/small/ncsoft.webp"
           />
         </SwiperSlide>
+        <SwiperSlide>
+          <OfferListing
+            startColor="#65a30d"
+            endColor="#86efac"
+            src="assets/thumbs/small/zalando.webp"
+          />
+        </SwiperSlide>
+
         <SwiperSlide>
           <OfferListing
             startColor="#4338ca"
