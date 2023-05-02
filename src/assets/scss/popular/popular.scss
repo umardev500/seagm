@@ -20,8 +20,43 @@
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   min-height: 190px !important;
+  max-width: 233px;
 
   > img {
     height: 234px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+}
+
+#popular-list {
+  .swiper-slide {
+    max-width: 233px;
+    min-width: 233px;
+
+    /* @media (min-width: 7) */
+  }
+}
+
+.popular-list-wrapper {
+  /* display: flex; */
+  @media (min-width: 1024px) {
+    @apply grid;
+    @apply grid-cols-4;
+    @apply gap-4;
+  }
+
+  @media (min-width: 1280px) {
+    @apply grid;
+    @apply grid-cols-5;
+    @apply gap-4;
+  }
+
+  @media (min-width: 1536px) {
+    @apply grid;
+    @apply grid-cols-6;
+    @apply gap-4;
   }
 }
