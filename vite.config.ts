@@ -13,7 +13,7 @@ export default defineConfig({
       '@assets': `${basePath}/src/assets`,
       '@router': `${basePath}/src/router`,
       '@context': `${basePath}/src/context`,
-      '@types': `${basePath}/src/types`,
+      'types': `${basePath}/src/types`,
       '@components': `${basePath}/src/components`,
     }
   }

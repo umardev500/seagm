@@ -6,7 +6,7 @@
       "@assets/*": ["src/assets/*"],
       "@router/*": ["src/router/*"],
       "@context/*": ["src/context/*"],
-      "@types/*": ["src/types/*"],
+      "types/*": ["src/types/*"],
       "@components/*": ["src/components/*"]
     },
     "target": "ESNext",
