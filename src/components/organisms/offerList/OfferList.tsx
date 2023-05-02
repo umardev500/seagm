@@ -24,7 +24,7 @@ export const OfferList: React.FC = () => {
           <OfferListing
             startColor="#65a30d"
             endColor="#86efac"
-            src="assets/thumbs/small/zalando.webp"
+            src="assets/thumbs/small/xbox.webp"
           />
         </SwiperSlide>
 
