@@ -14,7 +14,7 @@ export const OfferListing: React.FC<Props> = ({
   className = '',
 }) => {
   return (
-    <div className={`bg-white rounded-2xl overflow-clip ${className}`}>
+    <div className={`bg-white ml-4 rounded-2xl overflow-clip ${className}`}>
       <div
         style={{
           ['--startColor' as string]: startColor,

@@ -52,10 +52,10 @@ export const PopularList: React.FC = () => {
         <Swiper
           ref={swiperRef}
           loopedSlides={3}
-          spaceBetween={16}
+          spaceBetween={0}
           slidesPerView={'auto'}
         >
-          <SwiperSlide className="ml-4 lg:ml-0">
+          <SwiperSlide>
             <PopularListing thumb="assets/thumbs/PUBGM-icon.jpg" />
           </SwiperSlide>
           <SwiperSlide>
