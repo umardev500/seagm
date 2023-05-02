@@ -4,7 +4,7 @@ export const FooterDownload: React.FC = () => {
   return (
     <div className="p-4 download-card rounded-xl flex items-center gap-4">
       <img
-        className="w-12 w-12 lg:w-14 lg:h-14"
+        className="w-12 h-12 lg:w-14 lg:h-14"
         src="assets/icons/mascot.webp"
         alt=""
       />

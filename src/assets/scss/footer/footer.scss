@@ -1,3 +1,14 @@
 .download-card {
   background: linear-gradient(145deg, #dc2626, #f87171);
 }
+
+@media (min-width: 640px) {
+  .footer-copy::before {
+    content: '';
+    background: url('https://www.seagm.com/skin/images/seagm_logo_2020_text_white-2c37d6f16e.svg') no-repeat center/contain;
+    width: 60px;
+    height: 32px;
+    filter: brightness(70%);
+  }
+  
+}

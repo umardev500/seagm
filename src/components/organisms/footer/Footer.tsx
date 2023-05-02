@@ -1,4 +1,4 @@
-import { FooterDownload } from '@components/molecules'
+import { FooterCopy, FooterDownload } from '@components/molecules'
 import React from 'react'
 import {
   AboutMenuList,
@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
     <footer className="pt-10 pb-10">
       <div className="container justify-between px-4 lg:px-0 flex flex-wrap gap-6 items-start m-auto border-t pt-8">
         {/* left */}
-        <div className="">
+        <div>
           {/* payment method */}
           <div className="flex flex-wrap gap-4">
             <img className="w-auto h-5" src="assets/icons/ovo.webp" alt="ovo" />
@@ -53,6 +53,7 @@ export const Footer: React.FC = () => {
           <FooterDownload />
         </a>
       </div>
+      <FooterCopy />
     </footer>
   )
 }
