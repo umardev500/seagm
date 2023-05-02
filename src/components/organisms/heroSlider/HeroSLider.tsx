@@ -15,7 +15,7 @@ export const HeroSLider: React.FC = () => {
         slidesPerView={1}
         centeredSlides
         spaceBetween={24}
-        initialSlide={1}
+        initialSlide={2}
         keyboard={{ enabled: true }}
         navigation={{
           prevEl: '#navLeft',
@@ -42,11 +42,17 @@ export const HeroSLider: React.FC = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className="w-full object-cover slider-img rounded-xl"
-            src="assets/slider/3.webp"
-            alt="slider"
-          />
+          <picture>
+            <source
+              srcSet="assets/slider/small/3.webp"
+              media="(max-width: 640px)"
+            />
+            <img
+              className="w-full object-cover slider-img rounded-xl"
+              src="assets/slider/3.webp"
+              alt="slider"
+            />
+          </picture>
         </SwiperSlide>
         <SwiperSlide>
           <img
