@@ -3,10 +3,10 @@
 @import "bg-container";
 
 .hero-container {
-  padding-top: calc(72px + 1em);
+  margin-top: calc(72px + 0.5em);
 
   @media (min-width: 1024px) {
-    padding-top: calc(96px + 1em);
+    margin-top: calc(96px + 0.5em);
   }
 }
 

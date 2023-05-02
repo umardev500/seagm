@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Home: React.FC = () => {
   return (
-    <div className="relative">
+    <div className="relative pt-4">
       <Header />
       <HeroSLider />
       <Section
