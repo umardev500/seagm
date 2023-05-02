@@ -6,7 +6,7 @@ interface Props {
 
 export const PopularListing: React.FC<Props> = ({ thumb }) => {
   return (
-    <div className="popular-item bg-red-100 overflow-clip flex items-end justify-center">
+    <div className="popular-item pl-4 lg:pl-0 lg:pr-4 overflow-clip flex items-end justify-center">
       <img src={thumb} alt="thumbs" />
     </div>
   )
