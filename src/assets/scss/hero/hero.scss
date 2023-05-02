@@ -1,3 +1,6 @@
+@import "swiper-btn";
+@import "swiper-navigation";
+
 .hero-container {
   margin-top: calc(72px + 1em);
 
@@ -7,11 +10,12 @@
 }
 
 .slider-img {
-  /* max-height: 360px;
+  max-height: 360px;
+  height: 360px;
 
   @media (min-width: 1024px) {
     height: 360px;
-  } */
+  }
 }
 
 .swiper-slide {
@@ -23,6 +27,6 @@
 }
 
 .swiper-slide-prev, .swiper-slide-next {
-  opacity: .25;
+  opacity: 0.25;
   filter: grayscale(1);
 }

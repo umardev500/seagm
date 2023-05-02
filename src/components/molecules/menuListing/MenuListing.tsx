@@ -9,10 +9,20 @@ interface Props {
   onDropdownToggle?: () => void
 }
 
-export const MenuListing: React.FC<Props> = ({ title, hasDropdown = false, dropdownMenu, onDropdownToggle }) => {
+export const MenuListing: React.FC<Props> = ({
+  title,
+  hasDropdown = false,
+  dropdownMenu,
+  onDropdownToggle,
+}) => {
   return (
     <li className="relative hover:bg-gray-100 rounded-full px-2 cursor-pointer flex items-center gap-3">
-      <a href="#" className={`py-2.5 ${!hasDropdown ? 'px-4' : 'pl-4'} flex text-gray-600 uppercase manrope text-xs font-extrabold`}>
+      <a
+        href="#"
+        className={`py-2.5 ${
+          !hasDropdown ? 'px-4' : 'pl-4'
+        } flex text-gray-600 uppercase manrope text-xs font-extrabold`}
+      >
         {title}
       </a>
       {hasDropdown ? (

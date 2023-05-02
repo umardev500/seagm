@@ -1,45 +1,90 @@
+import { SliderNavigation } from '@components/molecules'
 import React from 'react'
+import { Autoplay, EffectFade, Keyboard, Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.min.css'
-import { Keyboard, EffectFade, Autoplay } from 'swiper'
 
 export const HeroSLider: React.FC = () => {
   return (
-    <div className="hero-container container m-auto rounded-xl overflow-clip">
+    <div className="hero-container px-4 lg:px-0 container m-auto rounded-xl overflow-clip relative">
       <Swiper
         autoplay={{ delay: 5700 }}
         loop
-        modules={[Keyboard, EffectFade, Autoplay]}
-        slidesPerView={1.5}
+        modules={[Keyboard, EffectFade, Autoplay, Navigation, Pagination]}
+        pagination={{ clickable: true }}
+        slidesPerView={1}
         centeredSlides
         spaceBetween={24}
         initialSlide={1}
         keyboard={{ enabled: true }}
+        navigation={{
+          prevEl: '#navLeft',
+          nextEl: '#navRight',
+        }}
+        breakpoints={{
+          1024: {
+            slidesPerView: 1.5,
+          },
+        }}
       >
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/1.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/1.webp"
+            alt="slider"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/2.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/2.webp"
+            alt="slider"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/3.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/3.webp"
+            alt="slider"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/4.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/4.webp"
+            alt="slider"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/4.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/4.webp"
+            alt="slider"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/4.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/4.webp"
+            alt="slider"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/4.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/4.webp"
+            alt="slider"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-full object-cover slider-img rounded-xl" src="assets/slider/4.webp" alt="slider" />
+          <img
+            className="w-full object-cover slider-img rounded-xl"
+            src="assets/slider/4.webp"
+            alt="slider"
+          />
         </SwiperSlide>
+
+        <SliderNavigation />
       </Swiper>
     </div>
   )

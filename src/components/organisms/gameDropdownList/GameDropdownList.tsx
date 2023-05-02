@@ -12,7 +12,12 @@ export const GameDropdownList: React.FC<Props> = ({ shown, setShown }) => {
   useDetectClickOutside({ elem: elemRef, setShown })
 
   return (
-    <div ref={elemRef} className={`dropdown-menu ${shown ? 'shown' : ''} bg-white grid grid-cols-2 absolute gap-2 rounded-xl p-6`}>
+    <div
+      ref={elemRef}
+      className={`dropdown-menu ${
+        shown ? 'shown' : ''
+      } bg-white grid grid-cols-2 absolute gap-2 rounded-xl p-6`}
+    >
       <DropdownListing title="Mobile Game Cards" />
     </div>
   )
