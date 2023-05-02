@@ -1,11 +1,12 @@
 @import "swiper-btn";
 @import "swiper-navigation";
+@import "bg-container";
 
 .hero-container {
-  margin-top: calc(72px + 1em);
+  padding-top: calc(72px + 1em);
 
   @media (min-width: 1024px) {
-    margin-top: calc(96px + 1em);
+    padding-top: calc(96px + 1em);
   }
 }
 

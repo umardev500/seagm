@@ -28,7 +28,7 @@ export const Header: React.FC = () => {
   }, [])
 
   return (
-    <header className="bg-white px-4 flex items-center header shadow-md shadow-gray-100">
+    <header className="bg-white px-4 flex items-center header">
       <div
         ref={innerRef}
         className="container header-inner m-auto flex justify-between items-center"

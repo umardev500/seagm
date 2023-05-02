@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Home: React.FC = () => {
   return (
-    <>
+    <div className="relative">
       <Header />
       <HeroSLider />
       <Section
@@ -12,6 +12,7 @@ export const Home: React.FC = () => {
         subTitle="Don't miss our limited-time offers! Discover current deals today!"
       />
       <OfferList />
-    </>
+      <div className="bg-container"></div>
+    </div>
   )
 }
