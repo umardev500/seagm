@@ -1,1 +1,13 @@
 @import "card";
+
+#offer-list {
+  .swiper-slide {
+    width: 260px;
+  }
+
+  @media (min-width: 1024px) {
+    .swiper-slide {
+      width: calc(100% / 5);
+    }
+  }
+} 

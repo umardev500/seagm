@@ -19,15 +19,18 @@
   }
 }
 
-.swiper-slide {
-  transition: opacity 1s;
-}
+.hero-container {
+  .swiper-slide {
+    transition: opacity 1s;
+  }
 
-.swiper-slide-active {
-  opacity: 1;
-}
+  .swiper-slide-active {
+    opacity: 1;
+  }
 
-.swiper-slide-prev, .swiper-slide-next {
-  opacity: 0.25;
-  filter: grayscale(1);
+  .swiper-slide-prev,
+  .swiper-slide-next {
+    opacity: 0.25;
+    filter: grayscale(1);
+  }
 }
