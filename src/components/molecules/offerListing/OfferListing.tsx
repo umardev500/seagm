@@ -5,6 +5,8 @@ interface Props {
   startColor: string
   endColor: string
   className?: string
+  title: string
+  subTitle: string
 }
 
 export const OfferListing: React.FC<Props> = ({
@@ -12,6 +14,8 @@ export const OfferListing: React.FC<Props> = ({
   startColor,
   endColor,
   className = '',
+  title,
+  subTitle,
 }) => {
   return (
     <div
@@ -27,10 +31,10 @@ export const OfferListing: React.FC<Props> = ({
         <img className="w-14 h-14 rounded-lg" src={src} alt="" />
         <div className="flex flex-col gap-0.5">
           <div className="manrope font-extrabold text-white text-xs">
-            1500 + 300 UC
+            {title}
           </div>
           <div className="manrope font-2xs font-semibold text-white">
-            PUBG Mobile UC (MY)
+            {subTitle}
           </div>
         </div>
       </div>

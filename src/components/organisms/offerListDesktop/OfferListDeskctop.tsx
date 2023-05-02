@@ -11,6 +11,8 @@ export const OfferListDeskctop: React.FC = () => {
       {offers.map((val, i) => (
         <OfferListing
           key={i}
+          title={val.title}
+          subTitle={val.subTitle}
           startColor={val.startColor}
           endColor={val.endColor}
           src={val.icon}

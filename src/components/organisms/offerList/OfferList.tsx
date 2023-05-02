@@ -13,6 +13,8 @@ export const OfferList: React.FC = () => {
         {offers.map((val, i) => (
           <SwiperSlide key={i}>
             <OfferListing
+              title={val.title}
+              subTitle={val.subTitle}
               startColor={val.startColor}
               endColor={val.endColor}
               src={val.icon}
