@@ -1,0 +1,27 @@
+.popular-section {
+  position: relative;
+
+  > h3 {
+    background-color: #f7f7f7;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    @apply bg-gray-300;
+    width: 100%;
+    height: 0.5px;
+  }
+}
+
+.popular-item {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  min-height: 190px !important;
+
+  > img {
+    height: 234px;
+  }
+}

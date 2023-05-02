@@ -5,6 +5,7 @@ import {
   HeroSLider,
   OfferList,
   OfferListDeskctop,
+  PopularList,
 } from '@components/organisms'
 import React from 'react'
 
@@ -22,6 +23,10 @@ export const Home: React.FC = () => {
         <OfferListDeskctop />
         <div className="bg-container"></div>
       </div>
+
+      {/* Popular list */}
+      <PopularList />
+
       <Footer />
     </>
   )
