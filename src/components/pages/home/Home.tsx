@@ -1,5 +1,10 @@
 import { Section } from '@components/molecules'
-import { Header, HeroSLider, OfferList } from '@components/organisms'
+import {
+  Header,
+  HeroSLider,
+  OfferList,
+  OfferListDeskctop,
+} from '@components/organisms'
 import React from 'react'
 
 export const Home: React.FC = () => {
@@ -12,6 +17,7 @@ export const Home: React.FC = () => {
         subTitle="Don't miss our limited-time offers! Discover current deals today!"
       />
       <OfferList />
+      <OfferListDeskctop />
       <div className="bg-container"></div>
     </div>
   )

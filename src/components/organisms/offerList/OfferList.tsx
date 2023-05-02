@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 export const OfferList: React.FC = () => {
   return (
-    <div id="offer-list" className="container m-auto mt-6 gap-4">
+    <div id="offer-list" className="container lg:hidden m-auto mt-6 gap-4">
       <Swiper spaceBetween={16} slidesPerView={'auto'}>
-        <SwiperSlide className="bg-blue-100">
+        <SwiperSlide>
           <OfferListing
             startColor="#65a30d"
             endColor="#86efac"
