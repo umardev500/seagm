@@ -1,0 +1,27 @@
+.hero-container {
+  margin-top: calc(72px + 1em);
+
+  @media (min-width: 1024px) {
+    margin-top: calc(96px + 1em);
+  }
+}
+
+.slider-img {
+  /* max-height: 360px;
+
+  @media (min-width: 1024px) {
+    height: 360px;
+  } */
+}
+
+.swiper-slide {
+  transition: opacity 1s;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide-prev, .swiper-slide-next {
+  opacity: .25;
+}
