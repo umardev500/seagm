@@ -7,8 +7,18 @@
   left: 0;
   top: 0;
   right: 0;
+  
 
   @media (min-width: 1024px) {
     height: 96px;
   }
+}
+
+.header-inner {
+  transition: max-width .3s;
+}
+
+.header-no-max-w {
+  max-width: 100%;
+  transition: 0.3s;
 }
