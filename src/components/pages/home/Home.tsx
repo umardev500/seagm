@@ -1,5 +1,5 @@
 import { Section } from '@components/molecules'
-import { Header, HeroSLider } from '@components/organisms'
+import { Header, HeroSLider, OfferList } from '@components/organisms'
 import React from 'react'
 
 export const Home: React.FC = () => {
@@ -11,6 +11,7 @@ export const Home: React.FC = () => {
         title="Exlusive Offers"
         subTitle="Don't miss our limited-time offers! Discover current deals today!"
       />
+      <OfferList />
     </>
   )
 }
