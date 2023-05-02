@@ -16,7 +16,6 @@
   }
 
   .swiper-slide {
-    // display: none;
 
     max-height: 360px;
     height: 360px;
@@ -38,6 +37,7 @@
 
   img {
     transform: scale(1);
+    height: 100%;
   }
 
   .swiper-slide-active {
