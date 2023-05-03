@@ -10,6 +10,10 @@
     background-repeat: no-repeat;
     transition: 0.3s;
 
+    @media (min-width: 640px) {
+      height: 177px;
+    }
+
     &::after {
       content: '';
       background-color: tomato;
