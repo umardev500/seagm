@@ -23,7 +23,7 @@ export const HeroSLider: React.FC = () => {
             nextEl: '#navRight',
           }}
           breakpoints={{
-            1024: {
+            1280: {
               slidesPerView: 1.5,
             },
           }}
