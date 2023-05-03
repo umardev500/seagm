@@ -14,3 +14,9 @@ body {
   /* @apply bg-gray-100; */
   background-color: #F7F7F7;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1392px;
+  }
+}
