@@ -6,9 +6,8 @@ interface Props {
 
 export const PopularListingV2: React.FC<Props> = ({ image }) => {
   return (
-    <div
-      className="card relative"
-      style={{ backgroundImage: `url(${image})` }}
-    ></div>
+    <div className="card relative" style={{ backgroundImage: `url(${image})` }}>
+      {/* <img src={image} alt="" /> */}
+    </div>
   )
 }
