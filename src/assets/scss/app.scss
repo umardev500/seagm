@@ -2,21 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "fonts";
-@import "header/header";
-@import "hero/hero";
-@import "offer/offer";
-@import "footer/footer";
-@import "popular/popular";
-@import "popular/popular-v2";
+@import 'fonts';
+@import 'header/header';
+@import 'hero/hero';
+@import 'offer/offer';
+@import 'footer/footer';
+@import 'popular/popular';
+@import 'popular/popular-v2';
 
 body {
   /* @apply bg-gray-100; */
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
-
-@media (min-width: 1536px) {
-  .container {
+.container {
+  @media (min-width: 1536px) {
     max-width: 1392px;
+  }
+
+  @media (min-width: 1204px) {
+    max-width: 952px;
   }
 }
