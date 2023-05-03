@@ -5,7 +5,6 @@ import {
   HeroSLider,
   OfferList,
   OfferListDeskctop,
-  PopularList,
   PopularListV2,
 } from '@components/organisms'
 import React from 'react'
