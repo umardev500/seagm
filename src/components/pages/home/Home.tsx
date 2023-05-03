@@ -6,6 +6,7 @@ import {
   OfferList,
   OfferListDeskctop,
   PopularList,
+  PopularListV2,
 } from '@components/organisms'
 import React from 'react'
 
@@ -25,7 +26,8 @@ export const Home: React.FC = () => {
       </div>
 
       {/* Popular list */}
-      <PopularList />
+      {/* <PopularList /> */}
+      <PopularListV2 />
 
       <Footer />
     </>

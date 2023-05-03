@@ -1,0 +1,32 @@
+.popular-list-v2 {
+  .card {
+    height: 177px;
+    overflow: hidden;
+    border-radius: 20px 5px 15px 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &::after {
+      content: '';
+      background-color: tomato;
+      position: absolute;
+      display: flex;
+      z-index: 1050;
+      width: 200%;
+      height: 100%;
+      left: -20%;
+      top: -90%;
+      opacity: 0.1;  
+      transform: rotate(45deg);
+      background: linear-gradient(to top, transparent, #fff 15%, rgba(255, 255, 255, 0.5));
+      transition: 0.3s;
+    }
+
+    &:hover::after {
+      transform: rotate(25deg);
+      top: -40%;
+      opacity: 0.15;
+    }
+  }
+}
