@@ -21,7 +21,7 @@ export const MenuListing: React.FC<Props> = ({
         href="#"
         className={`py-2.5 ${
           !hasDropdown ? 'px-4' : 'pl-4'
-        } flex text-gray-600 uppercase manrope text-xs font-extrabold`}
+        } flex whitespace-nowrap text-gray-600 uppercase manrope text-xs font-extrabold`}
       >
         {title}
       </a>
