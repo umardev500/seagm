@@ -19,7 +19,7 @@ export const OfferListing: React.FC<Props> = ({
 }) => {
   return (
     <div
-      className={`bg-white ml-4 lg:ml-0 rounded-2xl overflow-clip ${className}`}
+      className={`offer-card ml-4 lg:ml-0 rounded-2xl overflow-clip ${className}`}
     >
       <div
         style={{
@@ -40,10 +40,10 @@ export const OfferListing: React.FC<Props> = ({
       </div>
 
       <div className="flex items-center justify-between px-4 py-2.5">
-        <div className="manrope text-xs font-extrabold text-gray-white bg-green-700 text-white uppercase px-1.5 py-0.5 rounded-full">
+        <div className="manrope text-xs font-extrabold text-gray-white bg-lime-500 text-gray-800 uppercase px-1.5 py-0.5 rounded-full">
           Promo
         </div>
-        <div className="manrope text-xs font-extrabold text-gray-700">-15%</div>
+        <div className="manrope text-xs font-extrabold text-white">-15%</div>
       </div>
     </div>
   )
