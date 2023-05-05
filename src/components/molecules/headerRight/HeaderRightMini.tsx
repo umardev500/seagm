@@ -6,7 +6,7 @@ export const HeaderRightMini: React.FC = () => {
     <div className="flex items-center gap-6 sm:hidden">
       <Icon
         path={mdiMagnify}
-        className="text-gray-600 cursor-pointer"
+        className="text-white cursor-pointer"
         size={'24px'}
       />
       <img

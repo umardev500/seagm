@@ -33,7 +33,7 @@ export const Header: React.FC = () => {
         ref={innerRef}
         className="container header-inner m-auto flex justify-between items-center"
       >
-        <div className="lg:hidden text-gray-600 cursor-pointer">
+        <div className="lg:hidden text-white cursor-pointer">
           <Icon path={mdiMenu} size={'24px'} />
         </div>
 
