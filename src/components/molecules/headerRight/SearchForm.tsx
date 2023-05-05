@@ -19,7 +19,7 @@ export const SearchForm: React.FC = () => {
       onFocus={handleFocus}
       onBlur={handleBlur}
       ref={containerRef}
-      className="hidden sm:flex search-form border bg-gray-50 border-gray-50 items-center rounded-full pr-3"
+      className="hidden sm:flex search-form border items-center rounded-full pr-3"
     >
       <input
         className="bg-transparent text-gray-600 px-5 w-full py-2.5 manrope text-xs font-semibold outline-none"

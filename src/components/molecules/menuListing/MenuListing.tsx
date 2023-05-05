@@ -21,7 +21,7 @@ export const MenuListing: React.FC<Props> = ({
         href="#"
         className={`py-2.5 ${
           !hasDropdown ? 'px-4' : 'pl-4'
-        } flex whitespace-nowrap text-gray-600 uppercase manrope text-xs font-extrabold`}
+        } flex whitespace-nowrap text-white uppercase manrope text-xs font-extrabold`}
       >
         {title}
       </a>
@@ -30,7 +30,7 @@ export const MenuListing: React.FC<Props> = ({
           <span
             data-toggle="dropdown"
             onClick={onDropdownToggle}
-            className="dropdown-icon hover:bg-red-500 text-gray-400 hover:text-white flex items-center justify-center transition duration-200 rounded-full"
+            className="dropdown-icon hover:bg-red-500 text-white hover:text-white flex items-center justify-center transition duration-200 rounded-full"
           >
             <Icon path={mdiChevronDown} />
           </span>
