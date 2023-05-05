@@ -9,10 +9,10 @@ export const Section: React.FC<Props> = ({ title, subTitle }) => {
   return (
     <div className="container gap-2 px-4 lg:px-0 m-auto mt-6 flex items-center justify-between">
       <div>
-        <h3 className="uppercase whitespace-nowrap manrope font-bold text-lg lg:text-2xl text-gray-700">
+        <h3 className="uppercase whitespace-nowrap manrope font-bold text-lg lg:text-2xl text-white">
           {title}
         </h3>
-        <p className="mt-0.5 font-2xs lg:text-xs text-gray-600 manrope font-medium">
+        <p className="mt-0.5 font-2xs lg:text-xs text-white manrope font-medium">
           {subTitle}
         </p>
       </div>

@@ -16,25 +16,29 @@ export const Footer: React.FC = () => {
         <div>
           {/* payment method */}
           <div className="flex flex-wrap gap-4">
-            <img className="w-auto h-5" src="assets/icons/ovo.webp" alt="ovo" />
             <img
-              className="w-auto h-5"
-              src="assets/icons/linkaja.webp"
+              className="w-auto h-6 p-0.5 bg-white rounded"
+              src="assets/icons/ovo-dark.webp"
+              alt="ovo"
+            />
+            <img
+              className="w-auto h-6 p-0.5 bg-white rounded"
+              src="assets/icons/linkaja-dark.webp"
               alt="linkaja"
             />
             <img
-              className="w-auto h-5"
-              src="assets/icons/visa-master-card.webp"
+              className="w-auto h-6 p-0.5 bg-white rounded"
+              src="assets/icons/visa-master-card-dark.webp"
               alt="visa-mastercard"
             />
             <img
-              className="w-auto h-5"
-              src="assets/icons/dana.webp"
+              className="w-auto h-6 p-0.5 bg-white rounded"
+              src="assets/icons/dana-dark.webp"
               alt="dana"
             />
             <img
-              className="w-auto h-5"
-              src="assets/icons/atome.webp"
+              className="w-auto h-6 p-0.5 bg-white rounded"
+              src="assets/icons/atome-dark.webp"
               alt="atome"
             />
           </div>

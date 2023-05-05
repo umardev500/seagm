@@ -9,6 +9,8 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: 0.3s;
+    /* box-shadow: 0 8px 16px 3px rgba(0,0,0,0.25); */
+    box-shadow: 0 8px 16px 3px rgba(255, 255, 255, .05);
 
     @media (min-width: 640px) {
       height: 177px;
@@ -31,7 +33,6 @@
     }
 
     &:hover {
-      box-shadow: 0 8px 16px 3px rgba(0,0,0,0.25);
       transform: translateY(-5px) scale(1.05) rotateX(15deg);
       
       &::after {

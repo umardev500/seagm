@@ -12,7 +12,7 @@ export const FooterDownload: React.FC = () => {
         <div className="text-white manrope text-xs lg:text-sm font-extrabold">
           SEAGM in your pocket
         </div>
-        <div className="text-red-200 text-xs manrope mt-1">
+        <div className="text-sky-200 text-xs manrope mt-1">
           Get tha App Today!
         </div>
       </div>
